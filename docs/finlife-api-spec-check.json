@@ -1,0 +1,491 @@
+{
+  "checked_date_kst": "2026-11-24",
+  "scope": "Public documentation, not authenticated live product data",
+  "pages": [
+    {
+      "name": "정기예금",
+      "url": "https://finlife.fss.or.kr/finlife/api/fdrmDpstApi/list.do?menuNo=700052",
+      "status": 200,
+      "title": "정기예금 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [
+        [
+          "join_way",
+          "가입 방법"
+        ],
+        [
+          "mtrt_int",
+          "만기 후 이자율"
+        ],
+        [
+          "spcl_cnd",
+          "우대조건"
+        ],
+        [
+          "join_deny",
+          "가입제한Ex) 1:제한없음, 2:서민전용, 3:일부제한"
+        ],
+        [
+          "join_member",
+          "가입대상"
+        ],
+        [
+          "etc_note",
+          "기타 유의사항"
+        ]
+      ],
+      "transfer_text": [],
+      "all_table_row_count": 49,
+      "public_json_examples": [
+        {
+          "example_sha256": "7a6fdd17fb9cf22b88ce48128f70484a87f865dfcf7a2f8b8c3776b46fe32cc5",
+          "base_count": 79,
+          "option_count": 205,
+          "months": [
+            "201609"
+          ],
+          "selected_fields": [
+            "spcl_cnd",
+            "join_member",
+            "etc_note",
+            "mtrt_int",
+            "join_way"
+          ],
+          "full_json_tokens": 32829,
+          "selected_fields_tokens": 13099,
+          "selected_records_tokens_sum": 13175
+        }
+      ]
+    },
+    {
+      "name": "적금",
+      "url": "https://finlife.fss.or.kr/finlife/api/fdrmEntyApi/list.do?menuNo=700053",
+      "status": 200,
+      "title": "적금 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [
+        [
+          "join_way",
+          "가입 방법"
+        ],
+        [
+          "mtrt_int",
+          "만기 후 이자율"
+        ],
+        [
+          "spcl_cnd",
+          "우대조건"
+        ],
+        [
+          "join_deny",
+          "가입제한Ex) 1:제한없음, 2:서민전용, 3:일부제한"
+        ],
+        [
+          "join_member",
+          "가입대상"
+        ],
+        [
+          "etc_note",
+          "기타 유의사항"
+        ]
+      ],
+      "transfer_text": [
+        "3년 이하 월단위 가입 가능 2. 가입금액은 1만원 이상 최고 1천만원 이내(단, 매월 1천만원 범위 내)이며, 계약기간의 3/4이 경과한 경우 적립할 수 있는 금액의 합계는 그 이전 적립금액의 50%를 초과할 수 없음 (매월의 기준은 1일부터 말일을 의미) 10000000 20160920 201609201002 S 단리 F 자유적립식 36 1.4 1.9 S 단리 F 자유적립식 24 1.2 1.7 S 단리 F 자유적립식 12 1 1.5 201609 0010016 대구은행 10521001000846001 내손안에 적금 스마트폰 만기 후 1개월 미만 경과: 약정이자율 x 50% 만기 후 3개월 미만 경과: 약정이자율 x 25% 만기 후 3개월 이상 경과: 약정이자율 x 10% * 최고우대금리 : 0.3% - 최초가입 우대 : 0.2% - 비대면채널 거래실적 우대 : 0.1% ※ 단위는 연%p 1 제한없음 1. 1계좌당 가입한도 : 월 100만원 (최저 10만원 이상) 2. 스마트폰 가입"
+      ],
+      "all_table_row_count": 51,
+      "public_json_examples": [
+        {
+          "example_sha256": "85bf145e0b177f1d770a2b96c00f9802d1c4095a9ff2e926bd0245af26fdf815",
+          "base_count": 100,
+          "option_count": 302,
+          "months": [
+            "201609"
+          ],
+          "selected_fields": [
+            "spcl_cnd",
+            "join_member",
+            "etc_note",
+            "mtrt_int",
+            "join_way"
+          ],
+          "full_json_tokens": 51708,
+          "selected_fields_tokens": 19573,
+          "selected_records_tokens_sum": 19670
+        }
+      ]
+    },
+    {
+      "name": "연금저축_이관안내",
+      "url": "https://finlife.fss.or.kr/finlife/api/anntySvingsApi/list.do?menuNo=700054",
+      "status": 200,
+      "title": "연금저축 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [],
+      "transfer_text": [
+        "('[name=req_result]').val(data); }, error: function(xhr, stat, err) {} }); }; 연금저축 API는 통합연금포탈 사이트로 이관하여, 해당 사이트에서 확인할 수 있음을 안내드립니다. (통합연금포탈 - OpenAPI - 인증키 신청/관리에서 인증키를 신규 발급받아 이용 가능합니다. ) 통합연금포탈 오픈 API 주소 : https://www.fss.or.kr/fss/main/contents.do?menuNo=201042 민원상담전화 금감원콜센터 : 1332 / 대표전화 : 02-3145-5114 개인정보처리방침 이메일무단수집거부 저작권보호정책 뷰어 다운로드 찾아오시는길 ( 우: 07321 ) 서울 영등포구 여의대로 38 (여의도동) Copyright financial supervisory service. All rights reserved. 페이스북 블로그 유튜브 네이버TV "
+      ],
+      "all_table_row_count": 0,
+      "public_json_examples": []
+    },
+    {
+      "name": "주택담보대출",
+      "url": "https://finlife.fss.or.kr/finlife/api/houseMrtgApi/list.do?menuNo=700055",
+      "status": 200,
+      "title": "주택담보대출 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [
+        [
+          "join_way",
+          "가입 방법"
+        ],
+        [
+          "loan_inci_expn",
+          "대출 부대비용"
+        ],
+        [
+          "erly_rpay_fee",
+          "중도상환 수수료"
+        ],
+        [
+          "dly_rate",
+          "연체 이자율"
+        ],
+        [
+          "loan_lmt",
+          "대출한도"
+        ]
+      ],
+      "transfer_text": [],
+      "all_table_row_count": 51,
+      "public_json_examples": [
+        {
+          "example_sha256": "1a052d423a3bdf9001affd0f80b06cc1f6c58a16ef7848fdd5f81e1a66a41ac8",
+          "base_count": 5,
+          "option_count": 20,
+          "months": [
+            "201601"
+          ],
+          "selected_fields": [
+            "join_way",
+            "loan_inci_expn",
+            "erly_rpay_fee",
+            "dly_rate",
+            "loan_lmt"
+          ],
+          "full_json_tokens": 3382,
+          "selected_fields_tokens": 970,
+          "selected_records_tokens_sum": 972
+        }
+      ]
+    },
+    {
+      "name": "전세자금대출",
+      "url": "https://finlife.fss.or.kr/finlife/api/lfstsFundsApi/list.do?menuNo=700056",
+      "status": 200,
+      "title": "전세자금대출 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [
+        [
+          "join_way",
+          "가입 방법"
+        ],
+        [
+          "loan_inci_expn",
+          "대출 부대비용"
+        ],
+        [
+          "erly_rpay_fee",
+          "중도상환 수수료"
+        ],
+        [
+          "dly_rate",
+          "연체 이자율"
+        ],
+        [
+          "loan_lmt",
+          "대출한도"
+        ]
+      ],
+      "transfer_text": [],
+      "all_table_row_count": 49,
+      "public_json_examples": [
+        {
+          "example_sha256": "d7005eb5dadf03ff498a2ab79b8023c182890dc725aa6779717fc5ab37a0fea7",
+          "base_count": 5,
+          "option_count": 7,
+          "months": [
+            "201601"
+          ],
+          "selected_fields": [
+            "join_way",
+            "loan_inci_expn",
+            "erly_rpay_fee",
+            "dly_rate",
+            "loan_lmt"
+          ],
+          "full_json_tokens": 1798,
+          "selected_fields_tokens": 799,
+          "selected_records_tokens_sum": 801
+        }
+      ]
+    },
+    {
+      "name": "개인신용대출",
+      "url": "https://finlife.fss.or.kr/finlife/api/indvlCrdtApi/list.do?menuNo=700057",
+      "status": 200,
+      "title": "개인신용대출 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [
+        [
+          "join_way",
+          "가입 방법"
+        ]
+      ],
+      "transfer_text": [],
+      "all_table_row_count": 52,
+      "public_json_examples": [
+        {
+          "example_sha256": "85aa4fb10247a1dc077c15a63201c136db58af275d8f26d880477e8efbdbd960",
+          "base_count": 5,
+          "option_count": 17,
+          "months": [
+            "202102"
+          ],
+          "selected_fields": [
+            "join_way"
+          ],
+          "full_json_tokens": 3047,
+          "selected_fields_tokens": 95,
+          "selected_records_tokens_sum": 97
+        }
+      ]
+    },
+    {
+      "name": "개인사업자대출",
+      "url": "https://finlife.fss.or.kr/finlife/api/indvlBusiApi/list.do?menuNo=700075",
+      "status": 200,
+      "title": "개인사업자대출 API | 상세 및 테스트 | 오픈API | 금융감독원 금융상품통합비교공시 금융상품한눈에",
+      "matching_table_rows": [
+        [
+          "join_way",
+          "가입 방법"
+        ],
+        [
+          "use_way",
+          "자금용도"
+        ],
+        [
+          "loan_limit",
+          "대출한도"
+        ],
+        [
+          "loan_limit_detl",
+          "대출한도(세부요건)"
+        ],
+        [
+          "join_deny",
+          "가입조건"
+        ],
+        [
+          "join_deny_detl",
+          "가입조건(세부요건)"
+        ],
+        [
+          "spcl_rate",
+          "우대금리"
+        ],
+        [
+          "loan_term",
+          "대출기간"
+        ],
+        [
+          "erly_rpay_fee",
+          "중도상환수수료"
+        ],
+        [
+          "loan_inci_expn",
+          "대출부대비용"
+        ],
+        [
+          "dly_rate",
+          "연체이자율"
+        ]
+      ],
+      "transfer_text": [],
+      "all_table_row_count": 84,
+      "public_json_examples": [
+        {
+          "example_sha256": "3db0c587a5ef155bef5027de42766d15ae634de582b876a505a84c201873d7a4",
+          "base_count": 10,
+          "option_count": 10,
+          "months": [
+            "202511"
+          ],
+          "selected_fields": [
+            "join_way",
+            "use_way",
+            "loan_limit",
+            "loan_limit_detl",
+            "join_deny",
+            "join_deny_detl",
+            "spcl_rate",
+            "loan_term",
+            "erly_rpay_fee",
+            "loan_inci_expn",
+            "dly_rate"
+          ],
+          "full_json_tokens": 7424,
+          "selected_fields_tokens": 3365,
+          "selected_records_tokens_sum": 3372
+        }
+      ]
+    },
+    {
+      "name": "연금저축_현행상품별",
+      "url": "https://www.fss.or.kr/fss/lifeplan/devlopGuide/listInfo4.do?menuNo=201053",
+      "status": 200,
+      "title": "연금저축 비교공시(목록) | 개발 가이드 | OpenAPI | 통합연금포털 | 금융소비자보호 |",
+      "matching_table_rows": [
+        [
+          "",
+          "feeType",
+          "string",
+          "수수료 구조",
+          ""
+        ],
+        [
+          "",
+          "sells",
+          "string",
+          "판매여부",
+          ""
+        ],
+        [
+          "",
+          "guarantees",
+          "string",
+          "원금보장",
+          ""
+        ],
+        [
+          "",
+          "reserve",
+          "number",
+          "조회기준일 현재 적립금",
+          ""
+        ],
+        [
+          "",
+          "reserve1",
+          "number",
+          "과거 1년 적립금",
+          ""
+        ],
+        [
+          "",
+          "reserve2",
+          "number",
+          "과거 2년 적립금",
+          ""
+        ],
+        [
+          "",
+          "reserve3",
+          "number",
+          "과거 3년 적립금",
+          ""
+        ],
+        [
+          "",
+          "earnRate1",
+          "number",
+          "연평균 수익률 현재 1년 수익률",
+          ""
+        ],
+        [
+          "",
+          "earnRate3",
+          "number",
+          "과거 3년 수익률",
+          ""
+        ],
+        [
+          "",
+          "earnRate5",
+          "number",
+          "과거 5년 수익률",
+          ""
+        ],
+        [
+          "",
+          "earnRate7",
+          "number",
+          "과거 7년 수익률",
+          ""
+        ],
+        [
+          "",
+          "feeRate10",
+          "number",
+          "과거 10년 수수료율",
+          ""
+        ],
+        [
+          "",
+          "avgFeeRate",
+          "number",
+          "연평균 수수료율",
+          ""
+        ]
+      ],
+      "transfer_text": [
+        "glish 검색 외부사이트 이동 : 유튜브 외부사이트 이동 : 블로그 외부사이트 이동 : 페이스북 외부사이트 이동 : 인스타그램 민원·신고 민원·상담·정보공개청구 금융·민원·상담 이전화면 전체메뉴 닫기 금융·민원·상담 민원·신고 바로가기 금융민원상담 안내 금융민원신청 안내 협회등 관련기관 안내 금융회사민원부서 안내 민원조회 정보공개청구 이전화면 전체메뉴 닫기 정보공개청구 제도안내 정보공개청구/조회 보유정보목록 사전공표정보목록 비공개세부기준 공공데이터 개방 민원상담 챗봇 제도권금융회사조회 분쟁조정정보 분쟁조정결정례 분쟁해결기준 분쟁조정사례 주요판례 보도자료(소비자 유의사항 등) 인허가 / 등록ㆍ신고 인허가 사전협의(S.T.A.R.T) 이전화면 전체메뉴 닫기 인허가 사전협의(S.T.A.R.T) 인허가 사전협의(S.T.A.R.T) 사전협의신청 사전협의신청 조회 자료실 인허가등록신고시스템 온라인 인허가등록 사전협의 이전화면 전체메뉴 닫기 온라인 인허가등록 사전협의 사전협의 안내 사전협의 신"
+      ],
+      "all_table_row_count": 42,
+      "public_json_examples": []
+    },
+    {
+      "name": "연금저축_보험",
+      "url": "https://www.fss.or.kr/fss/lifeplan/devlopGuide/listInfo3.do?menuNo=201053",
+      "status": 200,
+      "title": "연금저축 비교공시(목록) | 개발 가이드 | OpenAPI | 통합연금포털 | 금융소비자보호 |",
+      "matching_table_rows": [
+        [
+          "publishedInterestRate",
+          "number",
+          "공시이율",
+          ""
+        ],
+        [
+          "guaranteedInterestRate",
+          "number",
+          "최저보증이율",
+          ""
+        ],
+        [
+          "fpFeeDesc",
+          "string",
+          "수수료 부과구조(설계사)",
+          "계약체결비용과 계약관리비용은 \"|\"으로 분리"
+        ],
+        [
+          "agentFeeDesc",
+          "string",
+          "수수료 부과구조(대리점)",
+          "계약체결비용과 계약관리비용은 \"|\"으로 분리"
+        ],
+        [
+          "onlineFeeDesc",
+          "string",
+          "수수료 부과구조(온라인)",
+          "계약체결비용과 계약관리비용은 \"|\"으로 분리"
+        ]
+      ],
+      "transfer_text": [
+        "glish 검색 외부사이트 이동 : 유튜브 외부사이트 이동 : 블로그 외부사이트 이동 : 페이스북 외부사이트 이동 : 인스타그램 민원·신고 민원·상담·정보공개청구 금융·민원·상담 이전화면 전체메뉴 닫기 금융·민원·상담 민원·신고 바로가기 금융민원상담 안내 금융민원신청 안내 협회등 관련기관 안내 금융회사민원부서 안내 민원조회 정보공개청구 이전화면 전체메뉴 닫기 정보공개청구 제도안내 정보공개청구/조회 보유정보목록 사전공표정보목록 비공개세부기준 공공데이터 개방 민원상담 챗봇 제도권금융회사조회 분쟁조정정보 분쟁조정결정례 분쟁해결기준 분쟁조정사례 주요판례 보도자료(소비자 유의사항 등) 인허가 / 등록ㆍ신고 인허가 사전협의(S.T.A.R.T) 이전화면 전체메뉴 닫기 인허가 사전협의(S.T.A.R.T) 인허가 사전협의(S.T.A.R.T) 사전협의신청 사전협의신청 조회 자료실 인허가등록신고시스템 온라인 인허가등록 사전협의 이전화면 전체메뉴 닫기 온라인 인허가등록 사전협의 사전협의 안내 사전협의 신"
+      ],
+      "all_table_row_count": 30,
+      "public_json_examples": []
+    }
+  ],
+  "example_totals": {
+    "base_count": 204,
+    "option_count": 561,
+    "full_json_tokens": 100188,
+    "selected_fields_tokens": 37901
+  }
+}
